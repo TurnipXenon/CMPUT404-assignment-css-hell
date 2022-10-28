@@ -28,3 +28,4 @@ Gutenberg document changes
 ------
 
 - Add image: By E. H. Shepard - Illustration to page 3 of Winnie-the-Pooh (1926) by artist E. H. Shepard. Scan from Bibliodyssey, PD-US, https://en.wikipedia.org/w/index.php?curid=34771447
+- Add papar background (CC0 license): https://www.rawpixel.com/image/5907375/photo-image-paper-texture-public-domain

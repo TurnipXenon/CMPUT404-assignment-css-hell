@@ -1,0 +1,31 @@
+body {
+    background: url("paper.png") center;
+    background-size: 100%;
+    color: black;
+    font-size: 1em;
+    font-family: "Noto Serif", serif;
+}
+
+p, div, h1, h2, h3, table {
+    background-size: cover;
+    padding: .5em;
+}
+
+a {
+    color: #B80000;
+}
+
+a:hover {
+    color: orangered;
+}
+
+img {
+
+}
+
+h2 {
+    font-size: 3em;
+    font-style: oblique;
+
+    border: 0.2em solid black;
+}
