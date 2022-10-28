@@ -36,3 +36,6 @@ Assets used
 ===========
 
 - Add paper background (CC0 license): https://www.rawpixel.com/image/5907375/photo-image-paper-texture-public-domain
+- Pengi art by [Nicole Chik](https://www.instagram.com/nicklejoesc/)
+- Hepcat art by [Cynara Braga Crypreste](https://www.behance.net/cynaracypreste)
+- Soulwork art by Ronan Sandoval and Andrew Li

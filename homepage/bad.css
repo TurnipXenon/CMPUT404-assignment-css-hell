@@ -1,0 +1,97 @@
+/*region general tags*/
+body {
+    font-family: 'Comic Sans MS', serif;
+    color: black;
+    text-align: right;
+}
+
+h1 {
+    font-size: 0.8em;
+    color: red;
+}
+
+h2 {
+    color: blue;
+}
+
+header {
+    margin-top: -5em;
+}
+
+img, video {
+    height: 300px;
+    width: 600px;
+    margin-left: 5em;
+}
+
+input {
+    max-width: 200px;
+}
+
+ul {
+    text-align: left;
+}
+
+/*endregion general tags*/
+
+/*region general classes*/
+.major-section {
+    background-color: pink;
+}
+
+.major-section * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sidebar, main {
+    max-width: 50em;
+}
+
+.links {
+    display: flex;
+    background-color: red;
+}
+
+/*endregion general classes*/
+
+/*region specific*/
+#background-image {
+    width: initial;
+    height: initial;
+    background: url("assets/background-image.jpg") no-repeat fixed center;
+    background-size: auto;
+    position: fixed;
+    z-index: -100;
+    top: -16px;
+    left: -16px;
+    max-height: initial;
+    max-width: initial;
+}
+
+#sidebar {
+    background-color: yellow;
+    text-align: center;
+    position: fixed;
+    width: 250px;
+    left: 0;
+    top: 0;
+    height: 100vh;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+h1.major-section {
+    padding: 1em 0 1em;
+    margin-top: 50px;
+    border: purple solid 30px;
+}
+
+#projects {
+    display: flex;
+}
+/*endregion specific*/

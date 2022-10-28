@@ -60,6 +60,15 @@ ul {
 .links {
     display: flex;
 }
+
+.history-column {
+    display: flex;
+    max-width: 40em;
+}
+
+.big-flex {
+    flex: 1;
+}
 /*endregion general classes*/
 
 /*region specific*/
