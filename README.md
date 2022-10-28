@@ -26,6 +26,7 @@ General changes
 ---------------
 
 - Lint the html files.
+- Change all img sources to their original absolute addresses
 
 A Christmas Carol 3.html
 ------------------------
