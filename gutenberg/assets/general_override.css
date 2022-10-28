@@ -1,0 +1,77 @@
+body {
+    background: url("paper.png") center;
+    background-size: 100%;
+    font-size: 1em;
+    font-family: "Noto Serif", serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+}
+
+p, div, h1, h2, h3, table {
+    padding: .5em;
+}
+
+hr {
+    height: .25em;
+    background-color: black;
+}
+
+a {
+    color: #B80000;
+}
+
+a:hover {
+    color: orangered;
+}
+
+img {
+    border: 0.25em solid;
+    padding: 1em;
+    box-shadow: 5px 10px;
+    max-height: 40em;
+    width: auto;
+}
+
+h1, h2 {
+    font-style: oblique;
+    border: 0.2em solid black;
+}
+
+h1 {
+    font-size: 4em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+h4 {
+    margin-top: 2em;
+}
+
+p {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+table {
+    margin-top: 2em;
+}
+
+/* for a christmas carol */
+.title2 {
+    color: darkred;
+}
+
+#pg-header {
+    margin-top: 12vh;
+}
+
+#pg-footer {
+    margin-bottom: 55vh;
+}
