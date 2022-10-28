@@ -66,9 +66,11 @@
 </aside>
 
 <section id="main-content">
+    <header></header>
+
     <section id="about">
         <h1>About</h1>
-        <img src="./assets/ushi.jpg" alt="pink colored cow from story of seasons: friends of mineral town">1
+        <img src="./assets/ushi.jpg" alt="pink colored cow from story of seasons: friends of mineral town">
         <p>
             Hi! I'm <a href="https://github.com/TurnipXenon/">@TurnipXenon</a>! I like french fries, seals, and making
             video games! I just go by with this plush cow image because I fear being
@@ -82,55 +84,62 @@
         <section>
             <h2>Software Engineering Intern</h2>
             <span>Twitch, San Francisco</span>
-            <span>2022 – June 2022</span>
+            <time>2022 – June 2022</time>
             <ul>
                 <li>
                     Building a load testing service that can be configured to generate different message types at
-                    different
-                    volumes that can be easily extended to target different chat services
+                    different volumes that can be easily extended to target different chat services
                 </li>
                 <li>
-                    Used Twitch’s set of custom tools that utilize AWS services and Twitch’s custom RPC protocol to
-                    create a
+                    Used Twitch’s set of custom tools that utilize AWS services and <a
+                        href="https://github.com/twitchtv/twirp">Twitch’s custom RPC framework</a> to create a
                     backend service with business logic written in Go and cloud infrastructure defined in
-                    Typescript-flavored CDK
+                    Typescript-flavored <a href="https://docs.aws.amazon.com/cdk/v2/guide/home.html">CDK</a>
                 </li>
                 <li>
                     Wrote a technical specification document for the service’s MVP and possible future features, and
-                    additional
-                    documentation on how to use the service and how to extend the load testing service to include new
-                    services
-                    to test
+                    additional documentation on how to use the service and how to extend the load testing service to
+                    include new services to test
                 </li>
             </ul>
         </section>
-        Software Engineering Intern May 2021 – Dec 2021
-        Twitch / Amazon Web Services Canada, Remote
-        Implemented and wrote tests for a feature in Twitch’s backend authentication systems and frontend web
-        application that will help suggest security improvements to over hundreds of thousands of users daily
-        Learned Go, Typescript, React, and other new technologies on the go to contribute to the codebase
+
+        <section>
+
+        </section>
+        <h2>Software Engineering Intern</h2>
+        <time>May 2021 – Dec 2021</time>
+        <span>Remote</span>
+        <ul>
+            <li>
+                Implemented and wrote tests for a feature in Twitch’s backend authentication systems and frontend web
+                application that will help suggest security improvements to over hundreds of thousands of users daily
+            </li>
+            <li>Learned Go, Typescript, React, and other new technologies on the go to contribute to the codebase</li>
+        </ul>
 
     </section>
+
+    <hr>
 
     <section id="projects">
         <h1>Projects</h1>
 
-
-        <div class="container-content" id="container-pengi">
+        <section>
 
             <video playsinline autoplay muted loop class="content-header" id="header-pengi"
                    poster="images/static/bg-default.jpg">
-                <source src="images/dynamic/header-pengi.webm" type="video/webm">
-                <!-- <source src="images/dynamic/header-pengi.mp4" type="video/mp4"> -->
-                <!-- <source src="images/dynamic/header-hep-cat.ogg" type="video/ogg"> -->
+                <source src="assets/header-pengi.webm" type="video/webm">
+                <source src="assets/header-pengi.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
 
             <div class="content-padded">
 
-                <h2>Pengi<br/>(Oct 2020 - Dec 2020)</h2>
-                <span class="subtitle">Well well, quite the dreamer, aren’t you? Might be hard to get in... costs a
-                        lot of money...</span>
+                <h2>Pengi</h2>
+                <time>Oct 2020 - Dec 2020</time>
+                <q>Well well, quite the dreamer, aren’t you? Might be hard to get in... costs a
+                    lot of money...</q>
                 <p>
                     Pengi is a text-based adventure made in Unity. I acted as the sole programmer for the team. Most
                     of the work revolves around UI and creating <a href="https://yarnspinner.dev/">YarnSpinner</a>
@@ -140,45 +149,37 @@
                     This is a course project made by a team of six for STS 350: Understanding Video Games.
                 </p>
 
-                <br/>
-
-                <div class="container">
-
+                <section class="links">
                     <input type="image" src="https://static.itch.io/images/badge.svg" id="itch-pengi"
                            class="tx-badge" title="turnipxenon.itch.io/pengi"/>
-
                     <input type="image" src="images/static/github-logo.png" id="github-pengi" class="tx-badge"
                            title="github.com/GreenTea-M/ProjectPengi"/>
-
-                </div>
+                </section>
 
             </div>
 
-        </div>
+        </section>
 
-        <div class="container-content" id="container-hep-cat">
+        <section>
 
             <video playsinline autoplay muted loop class="content-header" id="header-hep-cat"
                    poster="images/static/bg-default.jpg">
-                <source src="images/dynamic/header-hep-cat.webm" type="video/webm">
-                <!-- <source src="images/dynamic/header-hep-cat.mp4" type="video/mp4"> -->
-                <!-- <source src="images/dynamic/header-hep-cat.ogg" type="video/ogg"> -->
+                <source src="assets/header-hep-cat.webm" type="video/webm">
+                <source src="assets/header-hep-cat.mp4" type="video/mp4">
+                <source src="assets/header-hep-cat.ogg" type="video/ogg">
                 Your browser does not support the video tag.
             </video>
 
             <div class="content-padded">
 
-                <h2>Hep Cat<br/>(Jan 2020 - Apr 2020)</h2>
-                <span class="subtitle">"Cats, Jazz, and a little bit of Death. What more could anyone ask
-                        for?"</span>
+                <h2>Hep Cat</h2>
+                <time>Jan 2020 - Apr 2020</time>
+                <q>"Cats, Jazz, and a litle bit of Death. What more could anyone ask for?"</q>
                 <p>
-                    Hep Cat is a rhythm game made in
-                    <a href="https://www.rpgmakerweb.com/products/programs/rpg-maker-mv">
-                        RPG Maker MV
-                    </a> with the help of additional custom-made Javascript
-                    plugins. I wrote the rhythm game plugin's framework. For this
-                    plugin to work, I had to write a Python script that parses
-                    <a href="https://github.com/ppy/osu"><i>osu!</i></a>
+                    Hep Cat is a rhythm game made in <a
+                        href="https://www.rpgmakerweb.com/products/programs/rpg-maker-mv">RPG Maker MV</a> with the help
+                    of additional custom-made Javascript plugins. I wrote the rhythm game plugin's framework. For this
+                    plugin to work, I had to write a Python script that parses <a href="https://github.com/ppy/osu"><i>osu!</i></a>
                     files into readable JSON files.
                 </p>
                 <p>
@@ -186,133 +187,33 @@
                     <a href="https://sites.google.com/ualberta.ca/cmput250/">CMPUT 250</a>.
                 </p>
 
-                <br/>
-
-                <div class="container">
-
+                <section class="links">
                     <input type="image" src="https://static.itch.io/images/badge.svg" id="itch-hep-cat"
                            class="tx-badge" title="just-a-phantom.itch.io/hep-cat"/>
-
                     <div class="horizontal-padding">
                         <input type="image" src="images/static/bitbucket-logo.png" id="bitbucket-hep-cat"
                                class="tx-badge" title="bitbucket.org/egginchicken/hep-cat"/>
                     </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="container-content" id="container-uber-app">
-
-            <br/>
-            <br/>
-
-            <div class="content-padded">
-
-                <h2>Mock Uber App<br/>(Jan 2020 - Apr 2020)</h2>
-                <p>
-                    A course project under CMPUT 301 that mimics the features of
-                    the ride-sharing app Uber. I wrote the code that simplifies
-                    the interaction with the NoSQL cloud database
-                    <a href="https://firebase.google.com/">Firebase</a>.
-                    This Android application was written using Java.
-                </p>
-
-                <br/>
-
-                <input type="image" src="images/static/github-logo.png" id="github-uber-app" class="tx-badge"
-                       title="github.com/CMPUT301W20T10/UberApp"/>
+                </section>
 
             </div>
 
-        </div>
+        </section>
 
-        <div class="container-content" id="container-c291-project">
-
-
-            <br/>
-            <br/>
-
-            <div class="content-padded">
-
-                <h2>File and Database Management Project<br/>(November 2019)</h2>
-                <p>
-                    CMPUT 291 group project where we had to write a program which parses
-                    data from an XML file with hunder of thousands of line, under a time
-                    constraint. I wrote most of the query interpretation implementation via Python and BerkeleyDB.
-                </p>
-
-                <br/>
-
-                <input type="image" src="images/static/github-logo.png" id="github-c291-project" class="tx-badge"
-                       title="github.com/Arbelaezch/CMPUT291-Project-2"/>
-
-            </div>
-        </div>
-
-        <div class="container-content" id="container-depreciation">
-
-            <video playsinline autoplay muted loop class="content-header" id="header-depreciation"
-                   poster="images/static/bg-default.jpg">
-                <source src="images/dynamic/header-depreciation.webm" type="video/webm">
-                <!-- <source src="images/dynamic/header-depreciation.mp4" type="video/mp4"> -->
-                <!-- <source src="images/dynamic/header-depreciation.ogg" type="video/ogg"> -->
-                Your browser does not support the video tag.
-            </video>
-
-            <div class="content-padded">
-
-                <h2>Depreciation<br/>(Feb 2020)</h2>
-                <p>
-                    Depreciation is a top-down 2D game employing timed puzzle-based
-                    gameplay. This project is a
-                    <a href="https://globalgamejam.org/">Global Game Jam</a> 2020
-                    entry, restricting game development to be under 48 hours.
-                    I helped make the level designing tools used by the designers
-                    to drag-and-drop objects on the stage. This was written
-                    using C#.
-                </p>
-
-                <br/>
-
-                <div class="container">
-
-                    <div class="horizontal-padding">
-                        <input type="image"
-                               src="https://s3-us-west-1.amazonaws.com/ggj/site/site-images/GGJ00_Logo_Light.png"
-                               id="ggj-depreciation" class="tx-badge"
-                               title="globalgamejam.org/2020/games/depreciation-4"/>
-                    </div>
-
-                    <input type="image" src="https://static.itch.io/images/badge.svg" id="itch-depreciation"
-                           class="tx-badge" title="iscribblesometimes.itch.io/depreciated"/>
-
-                    <div class="horizontal-padding">
-                        <input type="image" src="images/static/github-logo.png" id="github-depreciation"
-                               class="tx-badge" title="github.com/Daddy-Lorax/GlobalGameJam2020"/>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <div class="container-content" id="container-soulwork">
+        <section>
 
             <video playsinline autoplay muted loop class="content-header" id="header-soulwork"
                    poster="images/static/bg-default.jpg">
-                <source src="images/dynamic/header-soulwork.webm" type="video/webm">
-                <!-- <source src="images/dynamic/header-soulwork.mp4" type="video/mp4"> -->
-                <!-- <source src="images/dynamic/header-soulwork.ogg" type="video/ogg"> -->
+                <source src="assets/header-soulwork.webm" type="video/webm">
+                <source src="assets/header-soulwork.mp4" type="video/mp4">
+                <source src="assets/header-soulwork.ogg" type="video/ogg">
                 Your browser does not support the video tag.
             </video>
 
             <div class="content-padded">
 
-                <h2>Soulwork<br/>(Nov 2019)</h2>
+                <h2>Soulwork</h2>
+                <time>Nov 2019</time>
                 <p>
                     Soulwork is a 2D platforming game that uses unique physics to
                     solve puzzle-based levels. This project is a
@@ -324,24 +225,22 @@
                     using C#.
                 </p>
 
-                <br/>
-
-                <div class="container">
-
+                <section class="links">
                     <input type="image" src="https://static.itch.io/images/badge.svg" id="itch-soulwork"
                            class="tx-badge" title="itch.io/jam/time-to-game-jam-gadec-fall-game-jam/rate/514331"/>
-
                     <div class="horizontal-padding">
                         <input type="image" src="images/static/github-logo.png" id="github-soulwork"
                                class="tx-badge" title="https://github.com/Zeyu-Li/Clockwork"/>
                     </div>
-
-                </div>
+                </section>
 
             </div>
 
-        </div>
+            </div>
+        </section>
     </section>
+
+    <footer></footer>
 </section>
 
 </body>
