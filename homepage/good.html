@@ -3,245 +3,213 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
     <link href="good.css" rel="stylesheet">
 </head>
 
 <body>
 
+<img src="assets/background-image.jpg" id="background-image">
+
+<header></header>
+
 <aside id="sidebar">
     <section>
-        Hi!
-    </section>
-    <nav>
+        <h1>
+            Find a Turnip below
+        </h1>
 
-        <div class="container" id="about-links">
-
-            <button id="button-location" class="mdc-button mdc-button--outlined about-button-link"
-                    title="Yellowknife,NT">
-                <i class="material-icons mdc-button__icon" aria-hidden="true">location_on</i>
-                <span class="mdc-button__label">Yellowknife, NT</span>
-            </button>
-
-            <form id="form-github" action="https://github.com/TurnipXenon">
-                <button id="button-github" class="mdc-button mdc-button--outlined about-button-link"
-                        title="github.com/TurnipXenon">
-                    <div class="mdc-button__ripple"></div>
-                    <i class="mark-github"></i>
-                    <span class="mdc-button__label">&nbsp;&nbsp;github.com/TurnipXenon</span>
-                </button>
-            </form>
-
-            <form id="form-itch" action="https://turnipxenon.itch.io/">
-                <button id="button-itch"
-                        class="mdc-button mdc-button--outlined about-button-link"
-                        title="turnipxenon.itch.io">
-                    <div class="mdc-button__ripple"></div>
-                    <i class="mark-itch"></i>
-                    <span class="mdc-button__label">&nbsp;&nbsp;turnipxenon.itch.io</span>
-                </button>
-            </form>
-
-            <form id="form-mail" action="mailto: manuba@ualberta.ca">
-                <button id="button-mail" class="mdc-button mdc-button--outlined about-button-link"
-                        title="mailto: manuba@ualberta.ca">
-                    <div class="mdc-button__ripple"></div>
-                    <i class="material-icons mdc-button__icon" aria-hidden="true">email</i>
-                    <span class="mdc-button__label">manuba@ualberta.ca</span>
-                </button>
-            </form>
-
-            <form id="form-linkedin" action="https://www.linkedin.com/in/allan-manuba-35b406196/">
-                <button id="button-linkedin"
-                        class="mdc-button mdc-button--outlined about-button-link"
-                        title="linkedin.com/in/allan-manuba-35b406196/">
-                    <div class="mdc-button__ripple"></div>
-                    <i class="mark-linkedin"></i>
-                    <span class="mdc-button__label">&nbsp;&nbsp;Allan Manuba</span>
-                </button>
-            </form>
-
-
-        </div>
-    </nav>
-</aside>
-
-<section id="main-content">
-    <header></header>
-
-    <section id="about">
-        <h1>About</h1>
-        <img src="./assets/ushi.jpg" alt="pink colored cow from story of seasons: friends of mineral town">
-        <p>
-            Hi! I'm <a href="https://github.com/TurnipXenon/">@TurnipXenon</a>! I like french fries, seals, and making
-            video games! I just go by with this plush cow image because I fear being
-            <a href="https://archive.nytimes.com/opinionator.blogs.nytimes.com/2013/06/15/i-know-what-you-think-of-me/?smid=fb-nytimes&WT.z_sma=OP_IKW_20130618">perceived</a>.
-        </p>
-    </section>
-
-    <section id="history">
-        <h1>Professional history</h1>
-
-        <section>
-            <h2>Software Engineering Intern</h2>
-            <span>Twitch, San Francisco</span>
-            <time>2022 – June 2022</time>
-            <ul>
-                <li>
-                    Building a load testing service that can be configured to generate different message types at
-                    different volumes that can be easily extended to target different chat services
-                </li>
-                <li>
-                    Used Twitch’s set of custom tools that utilize AWS services and <a
-                        href="https://github.com/twitchtv/twirp">Twitch’s custom RPC framework</a> to create a
-                    backend service with business logic written in Go and cloud infrastructure defined in
-                    Typescript-flavored <a href="https://docs.aws.amazon.com/cdk/v2/guide/home.html">CDK</a>
-                </li>
-                <li>
-                    Wrote a technical specification document for the service’s MVP and possible future features, and
-                    additional documentation on how to use the service and how to extend the load testing service to
-                    include new services to test
-                </li>
-            </ul>
-        </section>
-
-        <section>
-
-        </section>
-        <h2>Software Engineering Intern</h2>
-        <time>May 2021 – Dec 2021</time>
-        <span>Remote</span>
         <ul>
-            <li>
-                Implemented and wrote tests for a feature in Twitch’s backend authentication systems and frontend web
-                application that will help suggest security improvements to over hundreds of thousands of users daily
-            </li>
-            <li>Learned Go, Typescript, React, and other new technologies on the go to contribute to the codebase</li>
+            <li>Github: <a href="https://github.com/TurnipXenon">github.com/TurnipXenon</a></li>
+            <li>itch.io: <a href="https://turnipxenon.itch.io/">turnipxenon.itch.io</a></li>
+            <li>Twitter: <a href="https://twitter.com/TurnipXenon">twitter.com/TurnipXenon</a></li>
         </ul>
 
+
     </section>
+</aside>
 
-    <hr>
+<div id="main-container">
+    <div class="main-space"></div>
 
-    <section id="projects">
-        <h1>Projects</h1>
+    <main>
 
-        <section>
+        <section id="about" class="major-section">
+            <img src="./assets/ushi.jpg" alt="pink colored cow from story of seasons: friends of mineral town">
+            <h1>About</h1>
+            <p>
+                Hi! I'm <a href="https://github.com/TurnipXenon/">@TurnipXenon</a>! I like french fries, seals, and
+                making
+                video games! I just go by with this plush cow image because I fear being
+                <a href="https://archive.nytimes.com/opinionator.blogs.nytimes.com/2013/06/15/i-know-what-you-think-of-me/?smid=fb-nytimes&WT.z_sma=OP_IKW_20130618">perceived</a>.
+            </p>
+        </section>
 
-            <video playsinline autoplay muted loop class="content-header" id="header-pengi"
-                   poster="images/static/bg-default.jpg">
-                <source src="assets/header-pengi.webm" type="video/webm">
-                <source src="assets/header-pengi.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
 
-            <div class="content-padded">
+        <section id="history" class="major-section">
+            <h1>Professional history</h1>
 
-                <h2>Pengi</h2>
-                <time>Oct 2020 - Dec 2020</time>
-                <q>Well well, quite the dreamer, aren’t you? Might be hard to get in... costs a
-                    lot of money...</q>
-                <p>
-                    Pengi is a text-based adventure made in Unity. I acted as the sole programmer for the team. Most
-                    of the work revolves around UI and creating <a href="https://yarnspinner.dev/">YarnSpinner</a>
-                    commands for writers to use to create expressive stage directions in the script.
-                </p>
-                <p>
-                    This is a course project made by a team of six for STS 350: Understanding Video Games.
-                </p>
+            <section>
+                <h2>Software Engineering Intern</h2>
+                <span>Twitch, San Francisco</span>
+                <time>2022 – June 2022</time>
+                <ul>
+                    <li>
+                        Building a load testing service that can be configured to generate different message types at
+                        different volumes that can be easily extended to target different chat services
+                    </li>
+                    <li>
+                        Used Twitch’s set of custom tools that utilize AWS services and <a
+                            href="https://github.com/twitchtv/twirp">Twitch’s custom RPC framework</a> to create a
+                        backend service with business logic written in Go and cloud infrastructure defined in
+                        Typescript-flavored <a href="https://docs.aws.amazon.com/cdk/v2/guide/home.html">CDK</a>
+                    </li>
+                    <li>
+                        Wrote a technical specification document for the service’s MVP and possible future features, and
+                        additional documentation on how to use the service and how to extend the load testing service to
+                        include new services to test
+                    </li>
+                </ul>
+            </section>
 
-                <section class="links">
-                    <input type="image" src="https://static.itch.io/images/badge.svg" id="itch-pengi"
-                           class="tx-badge" title="turnipxenon.itch.io/pengi"/>
-                    <input type="image" src="images/static/github-logo.png" id="github-pengi" class="tx-badge"
-                           title="github.com/GreenTea-M/ProjectPengi"/>
-                </section>
+            <section>
 
-            </div>
+            </section>
+            <h2>Software Engineering Intern</h2>
+            <time>May 2021 – Dec 2021</time>
+            <span>Remote</span>
+            <ul>
+                <li>
+                    Implemented and wrote tests for a feature in Twitch’s backend authentication systems and frontend
+                    web
+                    application that will help suggest security improvements to over hundreds of thousands of users
+                    daily
+                </li>
+                <li>Learned Go, Typescript, React, and other new technologies on the go to contribute to the codebase
+                </li>
+            </ul>
 
         </section>
 
-        <section>
 
-            <video playsinline autoplay muted loop class="content-header" id="header-hep-cat"
-                   poster="images/static/bg-default.jpg">
-                <source src="assets/header-hep-cat.webm" type="video/webm">
-                <source src="assets/header-hep-cat.mp4" type="video/mp4">
-                <source src="assets/header-hep-cat.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
+        <section id="projects">
+            <h1 class="major-section">Projects</h1>
 
-            <div class="content-padded">
+            <section class="major-section">
 
-                <h2>Hep Cat</h2>
-                <time>Jan 2020 - Apr 2020</time>
-                <q>"Cats, Jazz, and a litle bit of Death. What more could anyone ask for?"</q>
-                <p>
-                    Hep Cat is a rhythm game made in <a
-                        href="https://www.rpgmakerweb.com/products/programs/rpg-maker-mv">RPG Maker MV</a> with the help
-                    of additional custom-made Javascript plugins. I wrote the rhythm game plugin's framework. For this
-                    plugin to work, I had to write a Python script that parses <a href="https://github.com/ppy/osu"><i>osu!</i></a>
-                    files into readable JSON files.
-                </p>
-                <p>
-                    This is a course project made by a team of six for
-                    <a href="https://sites.google.com/ualberta.ca/cmput250/">CMPUT 250</a>.
-                </p>
+                <video playsinline autoplay muted loop class="content-header" id="header-pengi"
+                       poster="images/static/bg-default.jpg">
+                    <source src="assets/header-pengi.webm" type="video/webm">
+                    <source src="assets/header-pengi.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
 
-                <section class="links">
-                    <input type="image" src="https://static.itch.io/images/badge.svg" id="itch-hep-cat"
-                           class="tx-badge" title="just-a-phantom.itch.io/hep-cat"/>
-                    <div class="horizontal-padding">
+                <div class="content-padded">
+
+                    <h2>Pengi</h2>
+                    <time>Oct 2020 - Dec 2020</time>
+                    <q>Well well, quite the dreamer, aren’t you? Might be hard to get in... costs a
+                        lot of money...</q>
+                    <p>
+                        Pengi is a text-based adventure made in Unity. I acted as the sole programmer for the team. Most
+                        of the work revolves around UI and creating <a href="https://yarnspinner.dev/">YarnSpinner</a>
+                        commands for writers to use to create expressive stage directions in the script.
+                    </p>
+                    <p>
+                        This is a course project made by a team of six for STS 350: Understanding Video Games.
+                    </p>
+
+                    <section class="links">
+                        <input type="image" src="https://static.itch.io/images/badge.svg" id="itch-pengi"
+                               class="tx-badge" title="turnipxenon.itch.io/pengi"/>
+                        <input type="image" src="images/static/github-logo.png" id="github-pengi" class="tx-badge"
+                               title="github.com/GreenTea-M/ProjectPengi"/>
+                    </section>
+
+                </div>
+
+            </section>
+
+            <section class="major-section">
+
+                <video playsinline autoplay muted loop class="content-header" id="header-hep-cat"
+                       poster="images/static/bg-default.jpg">
+                    <source src="assets/header-hep-cat.webm" type="video/webm">
+                    <source src="assets/header-hep-cat.mp4" type="video/mp4">
+                    <source src="assets/header-hep-cat.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
+
+                <div class="content-padded">
+
+                    <h2>Hep Cat</h2>
+                    <time>Jan 2020 - Apr 2020</time>
+                    <q>"Cats, Jazz, and a litle bit of Death. What more could anyone ask for?"</q>
+                    <p>
+                        Hep Cat is a rhythm game made in <a
+                            href="https://www.rpgmakerweb.com/products/programs/rpg-maker-mv">RPG Maker MV</a> with the
+                        help
+                        of additional custom-made Javascript plugins. I wrote the rhythm game plugin's framework. For
+                        this
+                        plugin to work, I had to write a Python script that parses <a href="https://github.com/ppy/osu"><i>osu!</i></a>
+                        files into readable JSON files.
+                    </p>
+                    <p>
+                        This is a course project made by a team of six for
+                        <a href="https://sites.google.com/ualberta.ca/cmput250/">CMPUT 250</a>.
+                    </p>
+
+                    <section class="links">
+                        <input type="image" src="https://static.itch.io/images/badge.svg" id="itch-hep-cat"
+                               class="tx-badge" title="just-a-phantom.itch.io/hep-cat"/>
                         <input type="image" src="images/static/bitbucket-logo.png" id="bitbucket-hep-cat"
                                class="tx-badge" title="bitbucket.org/egginchicken/hep-cat"/>
-                    </div>
-                </section>
+                    </section>
 
-            </div>
+                </div>
 
-        </section>
+            </section>
 
-        <section>
+            <section class="major-section">
 
-            <video playsinline autoplay muted loop class="content-header" id="header-soulwork"
-                   poster="images/static/bg-default.jpg">
-                <source src="assets/header-soulwork.webm" type="video/webm">
-                <source src="assets/header-soulwork.mp4" type="video/mp4">
-                <source src="assets/header-soulwork.ogg" type="video/ogg">
-                Your browser does not support the video tag.
-            </video>
+                <video playsinline autoplay muted loop class="content-header" id="header-soulwork"
+                       poster="images/static/bg-default.jpg">
+                    <source src="assets/header-soulwork.webm" type="video/webm">
+                    <source src="assets/header-soulwork.mp4" type="video/mp4">
+                    <source src="assets/header-soulwork.ogg" type="video/ogg">
+                    Your browser does not support the video tag.
+                </video>
 
-            <div class="content-padded">
+                <div class="content-padded">
 
-                <h2>Soulwork</h2>
-                <time>Nov 2019</time>
-                <p>
-                    Soulwork is a 2D platforming game that uses unique physics to
-                    solve puzzle-based levels. This project is a
-                    <a href="https://itch.io/jam/time-to-game-jam-gadec-fall-game-jam">Time to Game Jam</a>
-                    entry, restricting game development to be under 48 hours. I
-                    helped make the level designing tools used by the designers to
-                    drag-and-drop objects on the stage. I also helped program the
-                    unique physics-based gameplay mechanic. This was written
-                    using C#.
-                </p>
+                    <h2>Soulwork</h2>
+                    <time>Nov 2019</time>
+                    <p>
+                        Soulwork is a 2D platforming game that uses unique physics to
+                        solve puzzle-based levels. This project is a
+                        <a href="https://itch.io/jam/time-to-game-jam-gadec-fall-game-jam">Time to Game Jam</a>
+                        entry, restricting game development to be under 48 hours. I
+                        helped make the level designing tools used by the designers to
+                        drag-and-drop objects on the stage. I also helped program the
+                        unique physics-based gameplay mechanic. This was written
+                        using C#.
+                    </p>
 
-                <section class="links">
-                    <input type="image" src="https://static.itch.io/images/badge.svg" id="itch-soulwork"
-                           class="tx-badge" title="itch.io/jam/time-to-game-jam-gadec-fall-game-jam/rate/514331"/>
-                    <div class="horizontal-padding">
+                    <section class="links">
+                        <input type="image" src="https://static.itch.io/images/badge.svg" id="itch-soulwork"
+                               class="tx-badge" title="itch.io/jam/time-to-game-jam-gadec-fall-game-jam/rate/514331"/>
                         <input type="image" src="images/static/github-logo.png" id="github-soulwork"
                                class="tx-badge" title="https://github.com/Zeyu-Li/Clockwork"/>
-                    </div>
-                </section>
+                    </section>
 
-            </div>
-
-            </div>
+                </div>
+            </section>
         </section>
-    </section>
 
-    <footer></footer>
-</section>
+        <footer></footer>
+    </main>
+</div>
 
 </body>
 </html>
